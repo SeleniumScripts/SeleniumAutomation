@@ -1,0 +1,31 @@
+# Visual Studio 
+.vs/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Bb]in/[Rr]elease*/
+node_modules
+*.user
+*.suo
+
+packages/
+src/**/*.js
+/src/PFMTraining.Web/wwwroot/dist/*.js
+/src/pfmtraining.Web/wwwroot/pfmtraining_app/**/*.js
+*.d.ts
+*.map
+npm-debug.log
+.sonar
+*.lock.json
+!systemjs.config.js
+!gulpfile.js
+!systemjs.config.orig.js
+*.css
+
+
+/src/PFMTraining.Web/*-lock.json
+/src/PFMTraining.Web/package-lock.json
+/src/PFMTraining.Web/wwwroot/dist/*.js
+/src/PFMTraining.Web/wwwroot/dist/*.js.token
+/src/*.Web/wwwroot/typings
+Test Automation/mochawesome-report
